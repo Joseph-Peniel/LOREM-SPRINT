@@ -1,0 +1,34 @@
+.product-collab-section {
+    position: absolute;
+    background-image: url("../../assets/images/bg.png");
+    width: 98.8vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    bottom: -800px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.product-collab-section .container {
+    margin-top: 180px;
+    padding: 50px 100px;
+}
+
+.product-collab-section .container .collaboration {
+    display: block;
+}
+
+.collaboration p {
+    width: 100%;
+    text-align: center;
+    color: #6f6c6c;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 60px;
+}
+
+.collaboration img {
+    width: 100%;
+}

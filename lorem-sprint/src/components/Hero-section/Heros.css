@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+
+.hero-section {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+}
+
+.container {
+    padding: 60px 0;
+}
+.hero-content {
+    width: 50%;
+    gap: 40px;
+}
+
+h3 {
+    width: 350px;
+    font-family: "Lora";
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+h1 {
+    width: 490px;
+    font-size: 50px;
+    color: hsl(0, 0%, 100%);
+    font-family: "Open Sans";
+    line-height: 50px;
+    margin-bottom: 40px;
+}
+
+p {
+    width: 430px;
+    font-size: 18px;
+    color: #fff;
+    font-family: "Open Sans";
+    line-height: 26px;
+    margin-bottom: 40px;
+}
+
+.search-navigation {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+.search-navigation input {
+    font-size: 16px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+}
+
+.search-icon {
+    padding: 10px;
+    color: black;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+
+.lady {
+    position: absolute;
+    width: 50%;
+    right: 196px;
+    top: -50px;
+}
+.lady img {
+    width: 820px;
+    /* height: auto; */
+}
+
+.bizzAch {
+    position: absolute;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    /* bottom: -70px; */
+    padding: 0 50px;
+}
+
+.achievements {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+}
+.achievements img {
+    width: 100px;
+}
+.achievements span {
+    color: #23ff1f;
+    font-weight: 600;
+}
+.achievements p,
+.courseArch p,
+.recomArch p {
+    font-size: 16px;
+    padding: 40px 0 0 15px;
+}
+
+.courseArch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+}
+.courseArch {
+    width: 250px;
+}
+
+.recomArch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+}
+.recomArch .courseArch img {
+    border-radius: 50%;
+    width: 35px;
+}
+
+.recomArch img {
+    border-radius: 50%;
+    width: 35px;
+}
+.wave {
+    position: absolute;
+    bottom: -115px;
+    left: 0;
+    width: 0%;
+}
+
+.wave img {
+    width: 100%;
+}

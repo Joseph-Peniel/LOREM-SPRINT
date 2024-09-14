@@ -1,0 +1,86 @@
+.trendingCourses {
+    position: relative;
+    background: #fff;
+    width: 79.99vw;
+    align-items: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    bottom: -516px;
+    right: 0;
+    padding: 100px 120px;
+    overflow: hidden;
+}
+
+.trendingCourses h2 {
+    width: 100%;
+    color: #264359;
+    font-size: 23px;
+    text-align: center;
+    font-family: "Open Sans";
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.trendingCourses h2 span {
+    color: #e3bb2d;
+}
+
+.trendingCourses ul {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.trendingCourses ul li {
+    list-style: none;
+    width: 300px;
+}
+
+.trendingCourses .Section .courses {
+    padding-top: 30px;
+    margin-bottom: 60px;
+}
+
+.trendingCourses .Section img {
+    width: 280px;
+    height: 280px;
+    border-radius: 3px;
+}
+.trendingCourses .Section h5 {
+    position: relative;
+    background: #e3bb2d;
+    display: inline-block;
+    padding: 2px 14px;
+    font-family: "Lora";
+    font-size: 17px;
+    left: -15px;
+    top: -270px;
+}
+
+.trendingCourses .Section .info {
+    display: block;
+    width: 100%;
+    margin-top: -25px;
+}
+
+.trendingCourses .Section .info h4 {
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.trendingCourses .Section .info h4 span {
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+}
+.trendingCourses .Section .info span {
+    color: #8b8c8d;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 700;
+}
